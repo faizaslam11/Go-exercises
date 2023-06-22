@@ -1,3 +1,4 @@
+// By Mohd Faiz Aslam
 package main
 import (
     "fmt"
