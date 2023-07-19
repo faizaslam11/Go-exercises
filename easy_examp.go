@@ -17,7 +17,8 @@ func main() {
     
     // Starting two goroutines
     go foo("1st goroutine (activated)")
-    go foo("2nd goroutine")
+    foo("2nd goroutine (deactivated)")
+    go foo("3rd (activated)")
 
     // Wait for goroutines to finish before main goroutine ends
     time.Sleep(time.Second)
