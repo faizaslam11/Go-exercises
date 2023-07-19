@@ -16,7 +16,7 @@ func foo(s string) {
 func main() {
     
     // Starting two goroutines
-    go foo("1st goroutine")
+    go foo("1st goroutine (activated")
     go foo("2nd goroutine")
 
     // Wait for goroutines to finish before main goroutine ends
